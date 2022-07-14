@@ -1,0 +1,37 @@
+body{
+    background-color: #FFFEB7;
+}
+
+#platform-choice{
+    margin:10% auto 5% auto;
+    text-align: center;
+}
+
+
+.col-form-label{
+    text-align: center;
+}
+
+.form-control{
+    text-align: left;
+}
+
+
+footer{
+    font-size: 1.5rem;
+    margin: 5% auto auto 0;
+    padding: 20px 0 10px;
+    background-color: #ffbb33;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.foot-icon{
+    margin-left:1%;
+    margin-right:1%;
+    color: black;
+}
+
+.copyright{
+    color:black;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   
+
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap -->
+
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap script --> 
+    
+    
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- css -->
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/6edc7c4dd2.js" crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+
+    <!-- aos cdn and js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos cdn and js -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="icon"  type="image/png"  href="images/favicon.png">
+    <title>Code-Battle-Home</title>
+</head>
+<body>
+
+
+    
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+                <a class="navbar-brand" href="#" style="padding-right: 5%;"><i class="fa-solid fa-laptop-code fa2x"></i> CODE-BATTLE</a>
+           
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/speedforces">SpeedForces</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/code_battle">Code-Battle</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#contact-us">Contact-Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+
+        <section id="user-wlcm">
+            <div id="user-front" style="padding-top:20px;">
+                <h1 id="user-heading">HELLO USER !!</h1>
+                <h2 style="color: rgb(255, 128, 0); text-align: center;">SELECT TO GO</h2> 
+
+                <div class="row home-cards">
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 cards">
+                        <div class="card card-1" >
+                            <img class="card-img-top" src="images/speedforces-img.gif" alt="speedforces-img">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="color: rgb(255, 128, 0);">SPEEDFORCES</h5>
+                              <p class="card-text">This Feature let the user select a particular rating range from CodeForces.This feature let the User generate a random Unsolved problem in the range. The time of Submission will be displayed on the screen.</p>
+                              <a href="/speedforces" class="btn btn-warning">GO TO SPEEDFORCES</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 cards">
+                        <div class="card card-2" >
+                            <img class="card-img-top" src="images/1v1-img.gif" alt="1vs1-img">
+                            <div class="card-body">
+                              <h5 class="card-title"  style="color: rgb(255, 128, 0);">CODE-BATTLE</h5>
+                              <p class="card-text">This Feature let two user have a code-war between them. User who solve earlier will be the winner. This feature let the user select a particular rating range and this app will return a random-unsolved problem for users.</p>
+                              <a href="/code_battle" class="btn btn-warning">GO TO CODE-BATTLE</a>
+                            </div>
+                          </div>
+                    </div>
+
+
+                </div>
+            
+
+            </div>
+    </section>
+
+
+
+
+
+
+
+    <section id="contact-us">
+
+        <div id="contact-area">
+            <h1 id="contact-area-heading" data-aos="fade-right" class="section-heading aos-init aos-animate">Contact-Us</h1>
+
+            <div class="card" style="margin: auto 5% 5% 5%">
+                <div class="card-body" style="margin: auto auto auto 2%; width:60%;">
+                 
+                    <form action="mailto:shailesh1105y@gmail.com"  method="post" enctype="text/plain">
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">Name :</label> 
+                          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name" name="Name : " >
+                        </div>
+
+                        <div class="form-group">
+                          <label for="formGroupExampleInput2">Email :</label>
+                          <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="------@gmail.com" name="Email : ">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Feedback :</label>
+                            <textarea class = "form-control" rows = "3" placeholder = "Write Your Message here!" Name="Feedback : "></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-warning">Provide Feedback</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <section id="about-us">
+        <div id="about-area">
+            <h1 id="about-area-heading" data-aos="fade-right" class="section-heading aos-init aos-animate">About-Us</h1>
+
+                <div class="card about-card">
+                    <img src="images/profile-img.jpg" alt="Shailesh" style="width:100%">
+                    <h1>Shailesh Yadav</h1>
+                    <p class="title">Software Developer</p>
+                    <p>IIT BHU (Varanasi)</p>
+                    <a href="https://github.com/Shailesh-1111?tab=repositories"><i class="fa fa-github about-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/shailesh-yadav-1318bb225/"><i class="fa fa-linkedin about-icon"></i></a>
+                    <a href="https://www.instagram.com/_i__shailesh/"><i class="fa fa-instagram about-icon"></i></a>
+                    <!-- <a href=""><i class="fa fa-envelope about-icon"></i></a> -->
+                    <!-- <p><button class="btn btn-warning">Contact</button></p> -->
+                </div>
+        </div>
+    </section>
+    
+    <!-- aos script -->
+    <script>AOS.init();</script>
+    <!-- aos script -->
+
+</body>
+
+<footer>
+    <a href="https://github.com/Shailesh-1111?tab=repositories"><i class="fa fa-github foot-icon"></i></a>
+    <a href="https://www.linkedin.com/in/shailesh-yadav-1318bb225/"><i class="fa fa-linkedin foot-icon"></i></a>
+    <a href="https://www.instagram.com/_i__shailesh/"><i class="fa fa-instagram foot-icon"></i></a>
+    <p class="copyright">© 2022 Shailesh Yadav.</p>
+</footer>
+
+
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   
+
+    <!-- bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- bootstrap -->
+
+    <!-- bootstrap script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- bootstrap script --> 
+    
+    
+    <!-- css -->
+    <link rel="stylesheet" href="speedforces_styles.css">
+    <!-- css -->
+
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/6edc7c4dd2.js" crossorigin="anonymous"></script>
+    <!-- font-awesome -->
+
+    <!-- aos cdn and js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos cdn and js -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/png"  href="images/favicon.png">
+    <title>Code-Battle-Duel</title>
+</head>
+<body>
+
+
+  
+    <!-- NavBar -->
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+
+                <a class="navbar-brand" href="#" style="padding-right: 5%;"><i class="fa-solid fa-laptop-code fa2x"></i> CODE-BATTLE</a>
+           
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/speedforces">SpeedForces</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/code_battle">Code-Battle</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/#contact-us">Contact-Us</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+    <!-- NavBar -->
+
+    
+    <!-- .................middle portion................... -->
+        <section id="platform-choice">
+
+            <h1 style="margin:3% auto 0.4% auto; color: rgb(255, 128, 0);">CODE-BATTLE</h1>
+            <h6 style="margin:auto auto 3% auto; color: rgb(255, 128, 0);">Duel Problem Generator</h6>
+            <h4 style="margin:3% auto 1% auto; color: rgb(0, 0, 0);">Enter CodeForces Details</h4>
+             
+        </section>
+
+        <section id="pref">
+
+            <div id="form" STYLE="text-align: center; margin-bottom: 5%;">
+
+                <div class="input-group mb-3" style="margin:auto auto 2% auto; width: 50%;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="inputGroup-sizing-default">Handle-1 :</span>
+                    </div>
+                    <input type="text" id="handle-1" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Handle">
+                    <i class="fa-solid fa-check fa2x check1" style="margin:auto auto 2% auto; width: 4%; display:none;"></i>
+                    <button type="button" id="go-1" class="btn btn-warning">Validate</button>
+                </div>
+
+                <div class="input-group mb-3" style="margin:auto auto 2% auto; width: 50%;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="inputGroup-sizing-default">Handle-2:</span>
+                    </div>
+                    <input type="text" id="handle-2" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Handle">
+                    <i class="fa-solid fa-check fa2x check2" style="margin:auto auto 2% auto; width: 4%; display:none;"></i>
+                    <button type="button" id="go-2" class="btn btn-warning">Validate</button>
+                </div>
+
+                <div class="input-group mb-3" style="margin:auto auto 2% auto; width: 50%;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="inputGroup-sizing-default">Difficulty :</span>
+                    </div>
+                    <input type="text" id="start" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="800">
+                    <span style="padding:auto auto auto auto">&nbsp&nbsp-&nbsp&nbsp</span>
+                    <input type="text" id="end" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="1400">
+                </div>
+
+
+                <div class="input-group mb-3" style="margin:auto auto 2% auto; width: 30%;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="inputGroup-sizing-default">Timer :</span>
+                    </div>
+                    <input type="text" id="time" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="30:00" style="text-align:center;">
+                    <div class="input-group-prepend" >
+                        <span class="input-group-text" id="inputGroup-sizing-default">Min</span>
+                      </div>
+                   
+                </div>
+
+                  
+
+
+                  <button id="gen" type="button" class="btn btn-warning">Generate</button>
+
+
+                  <div class="alert alert-success result" role="alert" style="margin:5% auto 2% auto; width: 50%; display:none;">
+                    <h2 class="alert-heading">Duel Over!!</h2>
+                    <h4 id="winner"></h4>
+                    <hr>
+                    <button onClick="window.location.reload();" id="gen" type="button" class="btn btn-info">Refresh</button>
+                  </div>
+
+                <div class="input-group mb-3" style="margin:5% auto 2% auto; width: 50%;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="inputGroup-sizing-default">Problem-Link:</span>
+                    </div>
+                    <input type="text" id="link" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="https://codeforces.com/problemset/problem/.....">
+                    <button id="visit" type="button" class="btn btn-success">Start&nbsp<i class="fa-solid fa-paper-plane fa2x"></i></button>
+                </div>
+
+            </div>
+
+        </section>
+    
+       <!-- .................middle portion................... -->
+
+    
+    <!-- aos script -->
+    <script>AOS.init();</script>
+    <!-- aos script -->
+
+    <!-- javascript -->
+    <script src="script_battle.js" charset="utf-8"></script>
+    <!-- javascript -->
+</body>
+
+<footer>
+    <a href="https://github.com/Shailesh-1111?tab=repositories"><i class="fa fa-github foot-icon"></i></a>
+    <a href="https://www.linkedin.com/in/shailesh-yadav-1318bb225/"><i class="fa fa-linkedin foot-icon"></i></a>
+    <a href="https://www.instagram.com/_i__shailesh/"><i class="fa fa-instagram foot-icon"></i></a>
+    <p class="copyright">© 2022 Shailesh Yadav.</p>
+</footer>
+
+
+</html>
